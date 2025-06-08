@@ -184,3 +184,64 @@ result = x or y
 print(result)
 result = not y
 print(result)
+
+# Conditional Statement
+
+x = 2
+
+if x > 0:
+    print("x is positive")
+elif x < 0:
+    print("x is negative")
+else:
+    print("x is zero")
+
+password = 8
+
+if password > 8:
+    print("Valid password")
+elif password < 8:
+    print("Invalid password")
+else:
+    print("Please enter your password to login")
+
+# For Loops
+
+for index in range(5):
+    print(index)
+
+for index in range(1, 10):
+    print(index)
+
+for index in range(1, 10, 2):
+    print(index)
+
+word = "Python"
+
+for char in word:
+    print(char)
+
+for char in word:
+    print(char.split(" "))
+
+# While Loops
+
+password = ""
+
+while len(password) < 8:
+    password = input("Enter a password at least 8 characters")
+print("Change Password Successfully")
+
+# Example - Menu-Drive Program
+
+choice = None
+
+while choice != "q":
+    print("1. Option 1")
+
+    print("2. Option 2")
+
+    print("3. Option 3")
+
+    choice = input("Enter your choice (or 'q' to quit): ")
+
